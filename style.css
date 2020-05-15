@@ -1,0 +1,52 @@
+html {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  background: linear-gradient(to right, rgb(0, 220, 255), rgb(211, 108, 255))
+    no-repeat center center fixed;
+  font-family: 'Erica One', cursive;
+  text-align: center;
+}
+
+#generalImage {
+  max-width: 50%;
+  max-height: 50%;
+  border-radius: 50%;
+}
+
+.container {
+  margin-top: 15px;
+}
+
+#partyTimeButton {
+  background: lightcoral;
+  width: 15vmax;
+  font-family: 'Erica One', cursive;
+  border-radius: 5px;
+  padding: 10px;
+  margin-top: 15px;
+  animation-name: rainbow;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+}
+
+#partyTimeButton:hover {
+  cursor: pointer;
+}
+
+@keyframes rainbow {
+  0% {
+    background-color: lightcoral;
+    top: 0px;
+  }
+  50% {
+    background-color: magenta;
+    top: 50px;
+  }
+  100% {
+    background-color: purple;
+    top: 0px;
+  }
+}

@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Javascript Clock</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Erica+One&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div>
+      <div>
+        <h1>What Time Is It?</h1>
+        <br />
+        <!-- <span id="time">The time is:</span> -->
+        <span id="clock">Time goes here</span>
+        <div class="container">
+          <div id="main">
+            <img
+              src="./assets/daytime.jpg"
+              id="generalImage"
+              alt="wake image"
+            />
+            <blockquote id="timeEvent">
+              This is where time events are reported
+            </blockquote>
+            <div>
+              <h3>Choose your times:</h3>
+              <br />
+              Get up time
+              <select name="wake up" id="getUpSelect">
+                <option value="1">1am-2am</option>
+                <option value="2">2am-3am</option>
+                <option value="3">3am-4am</option>
+                <option value="4">4am-5am</option>
+                <option value="5">5am-6am</option>
+                <option value="6">6am-7am</option>
+                <option value="7">7am-8am</option>
+                <option value="8">8am-9am</option>
+                <option value="9">9am-10am</option>
+                <option value="10">10am-11am</option>
+                <option value="11">11am-12pm</option>
+                <option value="12">12pm-1pm</option>
+                <option value="13">1pm-2pm</option>
+                <option value="14">2pm-3pm</option>
+                <option value="15">3pm-4pm</option>
+                <option value="16">4pm-5pm</option>
+                <option value="17">5pm-6pm</option>
+                <option value="18">6pm-7pm</option>
+                <option value="19">7pm-8pm</option>
+                <option value="20">8pm-9pm</option>
+                <option value="21">9pm-10pm</option>
+                <option value="22">10pm-11pm</option>
+                <option value="23">11pm-12am</option>
+                <option value="24">12am-1am</option>
+              </select>
+              <br />
+              Lunch Time
+              <select name="lunch" id="lunchTimeSelect">
+                <option value="1">1am-2am</option>
+                <option value="2">2am-3am</option>
+                <option value="3">3am-4am</option>
+                <option value="4">4am-5am</option>
+                <option value="5">5am-6am</option>
+                <option value="6">6am-7am</option>
+                <option value="7">7am-8am</option>
+                <option value="8">8am-9am</option>
+                <option value="9">9am-10am</option>
+                <option value="10">10am-11am</option>
+                <option value="11">11am-12pm</option>
+                <option value="12">12pm-1pm</option>
+                <option value="13">1pm-2pm</option>
+                <option value="14">2pm-3pm</option>
+                <option value="15">3pm-4pm</option>
+                <option value="16">4pm-5pm</option>
+                <option value="17">5pm-6pm</option>
+                <option value="18">6pm-7pm</option>
+                <option value="19">7pm-8pm</option>
+                <option value="20">8pm-9pm</option>
+                <option value="21">9pm-10pm</option>
+                <option value="22">10pm-11pm</option>
+                <option value="23">11pm-12am</option>
+                <option value="24">12am-1am</option>
+              </select>
+              <br />
+              Dinner Time
+              <select name="dinner" id="dinnerTimeSelect">
+                <option value="1">1am-2am</option>
+                <option value="2">2am-3am</option>
+                <option value="3">3am-4am</option>
+                <option value="4">4am-5am</option>
+                <option value="5">5am-6am</option>
+                <option value="6">6am-7am</option>
+                <option value="7">7am-8am</option>
+                <option value="8">8am-9am</option>
+                <option value="9">9am-10am</option>
+                <option value="10">10am-11am</option>
+                <option value="11">11am-12pm</option>
+                <option value="12">12pm-1pm</option>
+                <option value="13">1pm-2pm</option>
+                <option value="14">2pm-3pm</option>
+                <option value="15">3pm-4pm</option>
+                <option value="16">4pm-5pm</option>
+                <option value="17">5pm-6pm</option>
+                <option value="18">6pm-7pm</option>
+                <option value="19">7pm-8pm</option>
+                <option value="20">8pm-9pm</option>
+                <option value="21">9pm-10pm</option>
+                <option value="22">10pm-11pm</option>
+                <option value="23">11pm-12am</option>
+                <option value="24">12am-1am</option>
+              </select>
+              <br />
+              <button name="partyButton" id="partyTimeButton">Party!</button>
+            </div>
+          </div>
+        </div>
+        <br />
+        <footer>&copy; hanwhocodes 2020</footer>
+      </div>
+    </div>
+
+    <script type="text/javascript" src="script.js"></script>
+  </body>
+</html>
